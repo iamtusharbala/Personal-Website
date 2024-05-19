@@ -216,16 +216,81 @@ div {
 
 
 /* MOBILE VIEW */
-@media (max-width:770px) {
+@media (max-width:771px) {
+
+    .intro-row {
+        width: 100%;
+    }
+
     .tbk-logo img {
-        width: 1rem;
+        width: 40px;
+        margin-bottom: 1rem;
     }
 
     .display-name {
+        font-size: 2.35rem;
+    }
+
+    .desc,
+    .job-row {
+        font-size: 3.75rem;
+        padding-top: 1.75rem;
+    }
+
+    .contact-details {
+        flex-direction: column;
+    }
+
+    .contact-details .social-handle {
+        padding-top: 2rem;
+    }
+
+    .tushar-picture {
+        display: none;
+    }
+
+    .section-description,
+    .connect-section-description {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+
+    .about-page .section-head-name,
+    .education-page .section-head-name,
+    .skills-page .section-head-name,
+    .connect-page .section-head-name {
+        width: 100%;
+        font-size: 2.75rem;
+        text-align: center;
+    }
+
+    .about-page .section-description,
+    .connect-page .connect-section-description {
+        font-size: 1.75rem;
+        text-align: center !important;
+    }
+
+    .connect-page .connect-section-description .connect-email {
+        font-size: 1.35rem;
+    }
+
+    .connect-page .lg-made-love {
+        display: block;
         font-family: "Montserrat", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 300;
-        font-style: light;
+        font-size: 1.25rem;
+    }
+
+
+    .footer-logo img {
+        width: 2rem;
+    }
+
+    .footer .made-love {
+        display: none;
+    }
+
+    .footer {
         font-size: 1rem;
     }
 }
