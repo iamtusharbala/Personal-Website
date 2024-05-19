@@ -1,0 +1,81 @@
+body {
+    overflow-x: hidden
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+.index-page {
+    background-image: url('assets/images/tbk-logo.png');
+}
+
+.display-name {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: light;
+    font-size: 3.5rem;
+}
+
+
+.code-bracket {
+    font-weight: 900;
+    color: #FF914D;
+    font-size: 2.65rem;
+}
+
+.job-desc {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    font-size: 1.25rem
+}
+
+.desc {
+    font-family: "Ubuntu Mono", monospace;
+    font-weight: 400;
+    font-size: 1.85rem;
+    font-style: normal;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+}
+
+.index-page {
+    background-color: #000;
+    color: #fff;
+}
+
+.tbk-logo img {
+    width: 5rem;
+}
+
+.job-row img {
+    width: 10rem;
+    padding: 0;
+}
+
+.tushar-picture img {
+    background-repeat: no-repeat;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.fa-brands {
+    padding: 0 1rem;
+    font-size: 2rem;
+}
+
+.social-handle a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact .email {
+    text-decoration: underline;
+    font-weight: 500;
+}
