@@ -144,8 +144,7 @@ div {
 }
 
 .skills-page .fa-github {
-    font-size: 6rem;
-    width: 3rem;
+    font-size: 100px;
 }
 
 
@@ -165,6 +164,10 @@ div {
     font-size: 3rem;
 }
 
+.education-page .degree {
+    color: #5C656B;
+}
+
 /* /////////////////////////////Connect/////////////////////////////////////////////////////////// */
 
 
@@ -181,6 +184,7 @@ div {
     font-weight: 700;
     font-style: italic;
     color: #fff;
+    font-size: 2rem;
 }
 
 .connect-section-description .resume-download {
@@ -227,6 +231,10 @@ div {
         margin-bottom: 1rem;
     }
 
+    .tushar-picture {
+        display: none;
+    }
+
     .display-name {
         font-size: 2rem;
     }
@@ -245,8 +253,8 @@ div {
         padding-top: 2rem;
     }
 
-    .tushar-picture {
-        display: none;
+    .connect-page .connect-section-description .connect-email {
+        font-size: 1.35rem;
     }
 
     .section-description,
@@ -275,9 +283,13 @@ div {
         justify-content: center;
     }
 
+    .skills-page {
+        padding-top: 4rem;
+    }
+
     .skills-page img {
         object-fit: contain;
-        width: 6rem;
+        width: 5rem;
         padding: 0.75rem;
     }
 
@@ -287,7 +299,6 @@ div {
     }
 
     .skills-page .fa-github {
-        width: 0;
         text-align: center;
     }
 
@@ -297,7 +308,7 @@ div {
 
 
     .connect-page .connect-section-description .connect-email {
-        font-size: 1.35rem;
+        font-size: 1.15rem;
     }
 
     .connect-page .lg-made-love {
