@@ -1,12 +1,27 @@
-body {
-    overflow-x: hidden
+* {
+    overflow: visible;
 }
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+img,
+div {
+    overflow: auto;
+} */
 
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900 */
-.index-page {
-    background-image: url('assets/images/tbk-logo.png');
-}
 
 .display-name {
     font-family: "Montserrat", sans-serif;
@@ -45,13 +60,27 @@ body {
     width: 100%;
 }
 
-.index-page {
+.index-page,
+.connect-page,
+.skills-page,
+.error-page {
+    background-image: url('assets/images/tbk-logo.png');
     background-color: #000;
     color: #fff;
 }
 
+.error-page {
+    background-color: #000;
+    height: 91vh;
+    width: 100%;
+    overflow: hidden;
+    ;
+}
+
+
 .tbk-logo img {
     width: 5rem;
+    margin-left: 0.75rem;
 }
 
 .job-row img {
@@ -78,4 +107,108 @@ body {
 .contact .email {
     text-decoration: underline;
     font-weight: 500;
+}
+
+/* /////////////////////////////Connect/////////////////////////////////////////////////////////// */
+
+.section-head-name {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 4rem;
+}
+
+.section-description {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.65rem;
+    color: #5C656B;
+}
+
+
+/* /////////////////////////////Skills/////////////////////////////////////////////////////////// */
+
+.skills-section-description {
+    color: #5C656B;
+    font-size: 5rem;
+}
+
+.skills-page img {
+    object-fit: contain;
+    width: 8rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.skills-page .fa-github {
+    font-size: 6rem;
+    width: 3rem;
+}
+
+
+.skills-page .repo-link a {
+    text-decoration: none;
+    color: #FF914D;
+}
+
+.skills-page .repo-link a:hover {
+    text-decoration: underline
+}
+
+/* /////////////////////////////Education/////////////////////////////////////////////////////////// */
+
+
+.education-page .fa-solid {
+    font-size: 3rem;
+}
+
+/* /////////////////////////////Connect/////////////////////////////////////////////////////////// */
+
+
+.connect-section-description {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: #5C656B;
+}
+
+.connect-section-description .connect-email {
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+}
+
+.connect-section-description .resume-download {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.connect-section-description .resume-download {
+    font-weight: 700;
+    font-style: italic;
+    color: #FF914D;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* /////////////////////////////Footer/////////////////////////////////////////////////////////// */
+
+
+
+.footer-logo img {
+    width: 3rem;
+    cursor: pointer;
+}
+
+.footer {
+    background-image: url('assets/images/tbk-logo.png');
+    background-color: #000;
+    color: #fff;
+    font-size: 1.25rem;
 }
