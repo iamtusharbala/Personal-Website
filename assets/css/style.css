@@ -339,3 +339,11 @@ div {
         font-size: 1rem;
     }
 }
+
+@media (min-width:992px)
+/* and (max-width:) */
+    {
+    .connect-page .connect-section-description .connect-email {
+        font-size: 1.195rem;
+    }
+}
