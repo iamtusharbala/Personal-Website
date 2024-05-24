@@ -283,6 +283,7 @@ div {
     .education-page .section-head-name,
     .skills-page .section-head-name,
     .github-page .section-head-name,
+    .blog-page .section-head-name,
     .connect-page .section-head-name {
         width: 100%;
         font-size: 2.75rem;
