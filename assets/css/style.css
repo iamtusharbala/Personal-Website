@@ -64,7 +64,7 @@ div {
 .connect-page,
 .skills-page,
 .error-page,
-.project-page {
+.blog-page {
     background-image: url('assets/images/tbk-logo.png');
     background-color: #000;
     color: #fff;
@@ -157,6 +157,30 @@ div {
 
 .education-page .degree {
     color: #5C656B;
+}
+
+/* /////////////////////////////Card/////////////////////////////////////////////////////////// */
+
+.card-title,
+.card-text {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* /////////////////////////////Blog/////////////////////////////////////////////////////////// */
+
+.blog-page .card {
+    --bs-card-bg: transparent;
+    color: #fff;
+}
+
+.blog-page .card p {
+    color: #fff !important;
+}
+
+
+.blog-page .card a {
+    color: #FF914D;
+    font-weight: 500;
 }
 
 /* /////////////////////////////Connect/////////////////////////////////////////////////////////// */
