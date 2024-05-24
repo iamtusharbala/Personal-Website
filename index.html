@@ -90,48 +90,151 @@
   <section class="section skills-page d-flex align-items-center justify-content-center">
     <div class="container">
       <!-- skills -->
-      <div class="contents p-lg-4 d-flex align-items-center justify-content-center">
-        <div class="row mt-3 w-100">
-          <div class="col-lg-8 text-start">
-            <p class="skills-section-description d-flex flex-wrap align-content-between gap-2">
-              <img src="assets/images/skills/html-5.png" class="img-fluid" alt="">
-              <img src="assets/images/skills/css.png" class="img-fluid" alt="">
-              <img src="assets/images/skills/js.png" class="img-fluid" alt="">
-              <img src="assets/images/skills/node.png" class="img-fluid" alt="">
-              <img src="assets/images/skills/express.png" class="img-fluid" alt="">
-              <img src="assets/images/skills/Mongodb.png" class="img-fluid" alt="">
-              <img src="assets/images/skills/react.png" class="img-fluid" alt="">
-              <img src="assets/images/skills/api.png" class="img-fluid" alt="">
-              <img src="assets/images/skills/postgresql.png" class="img-fluid" alt="">
-              <img src="assets/images/skills/python.png" class="img-fluid" alt="">
-            </p>
+      <div class="contents p-4 d-flex align-items-center justify-content-around">
+        <div class="row mt-5 w-100">
+          <div class="row">
+            <p class="section-head-name text-center">Skills</p>
           </div>
-          <div class="col-lg-4">
-            <p class="section-head-name text-end">Skills</p>
+          <div class="skill-row d-flex justify-content-around">
+            <div class="skills">
+              <span class="skill-card">
+                <img src="./assets/images/skills/html-5.png" class="img-fluid" alt="HTML">
+              </span>
+              <h4>HTML 5</h4>
+            </div>
+            <div class="skills">
+              <span class="skill-card">
+                <img src="./assets/images/skills/css.png" class="img-fluid" alt="CSS">
+              </span>
+              <h4>CSS</h4>
+            </div>
+            <div class="skills">
+              <span class="skill-card">
+                <img src="./assets/images/skills/js.png" class="img-fluid" alt="Javascript">
+              </span>
+              <h4>Javascript</h4>
+            </div>
+            <div class="skills">
+              <span class="skill-card">
+                <img src="./assets/images/skills/node.png" class="img-fluid" alt="Node JS">
+              </span>
+              <h4>Node JS</h4>
+            </div>
+            <div class="skills">
+              <span class="skill-card">
+                <img src="./assets/images/skills/express.png" class="img-fluid" alt="Express JS">
+              </span>
+              <h4>Express JS</h4>
+            </div>
+            <div class="skills">
+              <span class="skill-card">
+                <img src="./assets/images/skills/Mongodb.png" class="img-fluid" alt="Mongo DB">
+              </span>
+              <h4>Mongo DB</h4>
+            </div>
+            <div class="skills">
+              <span class="skill-card">
+                <img src="./assets/images/skills/react.png" class="img-fluid" alt="React">
+              </span>
+              <h4>React</h4>
+            </div>
+            <div class="skills">
+              <span class="skill-card">
+                <img src="./assets/images/skills/python.png" class="img-fluid" alt="Python">
+              </span>
+              <h4>Python</h4>
+            </div>
+            <div class="skills">
+              <span class="skill-card">
+                <img src="./assets/images/skills/postgresql.png" class="img-fluid" alt="PostgreSQL">
+              </span>
+              <h4>PostgreSQL</h4>
+            </div>
+            <div class="skills">
+              <span class="skill-card">
+                <img src="./assets/images/skills/api.png" class="img-fluid" alt="Rest API">
+              </span>
+              <h4>Rest API</h4>
+            </div>
           </div>
         </div>
       </div>
-
-      <!-- github repo -->
-      <div class="contents p-4 text-center">
-        <div class=" row github-row mt-5 w-100 d-flex align-items-center">
-          <div class="col-auto">
-            <i class="fa-brands fa-github"></i>
-          </div>
-          <div class="col-lg-6">
-            <p class="section-head-name github-head-name m-0">Github projects</p>
-          </div>
-          <div class="col-auto repo-link">
-            <a href="https://github.com/iamtusharbala?tab=repositories" target="_blank" rel="noopener noreferrer">
-              <p class="section-head-name github-section-name m-0">Github repo</p>
-            </a>
-          </div>
-        </div>
-      </div>
-
+    </div>
     </div>
   </section>
 
+
+  <!-- Github Page -->
+  <section class="section github-page d-flex align-items-center justify-content-center">
+    <div class="container">
+      <!-- github repo -->
+      <div class="contents p-4 d-flex align-items-center justify-content-center">
+        <div class="row mt-5 w-100">
+          <div class="row">
+            <p class="section-head-name">Github Projects</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Netflix Clone</h5>
+                  <p class="card-text">A replica of Netflix's interface, built with React, featuring user authentication
+                    and media streaming capabilities.</p>
+                  <a href="https://github.com/iamtusharbala/Netflix-Clone" class="card-link">Github Repo</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Skycast Weather App</h5>
+                  <p class="card-text">A weather forecasting app using OpenWeather API to provide real-time weather
+                    updates and forecasts.</p>
+                  <a href="https://github.com/iamtusharbala/SkyCast-Weather-App" class="card-link">Github Repo</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">Job Portal</h5>
+                  <p class="card-text">A job listing platform with search and apply functionalities, built using
+                    Node.js, Express, and MongoDB.</p>
+                  <a href="https://github.com/iamtusharbala/job-portal" class="card-link">Github Repo</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card mb-3">
+                <div class="card-body">
+                  <h5 class="card-title">User Auth</h5>
+                  <p class="card-text">A user authentication system implementing JWT for secure login, registration, and
+                    user management using Node.js and Express.</p>
+                  <a href="https://github.com/iamtusharbala/user-auth" class="card-link">Github Repo</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Project Page -->
+  <section class="section project-page d-flex align-items-center justify-content-center">
+    <div class="container">
+      <!-- skills -->
+      <div class="contents p-lg-4 d-flex align-items-center justify-content-center">
+        <div class="row mt-3 w-100">
+          <div class="col-lg-8 text-start">
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Education Page -->
   <section class="section education-page d-flex align-items-center justify-content-center">
